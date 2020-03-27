@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="magenest_rules_save_before">
+        <observer name="save_magenest_rules" instance="Magenest\Chapter6\Observer\BeforeSaveMagenestRules" />
+    </event>
+</config>
