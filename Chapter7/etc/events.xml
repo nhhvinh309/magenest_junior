@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="checkout_cart_product_update_after">
+        <observer name="add_time_stamp" instance="Magenest\Chapter7\Observer\CheckOutCartProductUpdateAfter" />
+    </event>
+</config>
